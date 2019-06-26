@@ -1,7 +1,6 @@
 import xlrd 
 import csv
 
-//hi jorge wasssupp
 def get_data(fileName):  
     loc = (fileName) 
       
