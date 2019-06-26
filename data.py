@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jun 25 18:34:26 2019
-
-@author: Jorge
-"""
 import xlrd 
 
 def get_data(fileName):  
