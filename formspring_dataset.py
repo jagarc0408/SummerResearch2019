@@ -24,3 +24,15 @@ for i in range(0,len(entries)):
             classifications.append(entries[i][j])
     checking_majority.append(classifications)
     
+#Getting Majority Yes or No's, 1st index is not relevant
+majority_binary = []
+for i in range(0,len(checking_majority)):
+    yes_count = 0
+    for j in checking_majority[i]:
+        if j == 'Yes':
+            yes_count += 1
+        
+    if yes_count >= 2:
+        majority_binary.append(1)
+    else:
+        majority_binary.append(0)
